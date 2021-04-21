@@ -18,7 +18,7 @@
 
 | | Baseline | Code release schedule |
 |:---:|:---:|:---:|
-| 1 | FCN8s baseline (VGG imageNet weight) | 04-26 (Mon.) |
+| 1 | [FCN8s baseline (VGG imageNet weight)](https://github.com/Pstage-Segmentation-Detection/Image-Segmentation-and-Object-Detection/blob/main/ch03_Semantic%20Segmentation%EC%9D%98%20%EA%B8%B0%EC%B4%88%EC%99%80%20%EC%9D%B4%ED%95%B4/baseline_code/FCN8s%20baseline%20(VGG%20imageNet%20weight).ipynb) | 04-26 (Mon.) |
 | 2 | It will be released. | 04-30 (Fri.) |
 
 
