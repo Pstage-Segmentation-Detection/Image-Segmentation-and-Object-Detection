@@ -118,8 +118,8 @@ testpath==0.4.4
 tifffile==2021.4.8
 timm==0.3.2
 tomlkit==0.7.0
-torch==1.4.0+cu92
-torchvision==0.5.0+cu92
+torch==1.4.0
+torchvision==0.5.0
 tornado==6.1
 tqdm==4.60.0
 traitlets==4.3.3
