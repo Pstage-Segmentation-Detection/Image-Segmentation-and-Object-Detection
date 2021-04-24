@@ -23,7 +23,7 @@ dataset_path = '../input/data'
 # gt_path = dataset_path + '/private.json'
 
 # directory of submission.csv
-pred_path = './submission/test_256.csv'
+# pred_path = './submission/test_256.csv'
 
 
 def _fast_hist(label_true, label_pred, n_class):
