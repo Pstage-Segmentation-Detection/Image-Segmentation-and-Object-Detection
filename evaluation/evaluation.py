@@ -17,13 +17,13 @@ dataset_path = '../input/data'
 
 # public score (대회 진행중인 경우) : '/public.json'
 # test_private score (대회 종료 후) : '/test_private.json'
-
+#
 # gt_path = dataset_path + '/test_private.json'
-# gt_path = dataset_path + '/public.json'
+gt_path = dataset_path + '/public.json'
 # gt_path = dataset_path + '/private.json'
 
 # directory of submission.csv
-# pred_path = './submission/test_256.csv'
+pred_path = './submission/test_256.csv'
 
 
 def _fast_hist(label_true, label_pred, n_class):
@@ -142,13 +142,13 @@ def evaluation(gt_path, pred_path):
     return np.mean(mIoU_list)
 
 
-# if __name__ == '__main__':
-#     # # 837 imgages => ok
-#     gt_path = '../input/data/test_private.json'
-#     # # 417 imgages => ok
-#     # gt_path = '../input/data/public.json'
-#     # # 420 imgages => ok
-#     # private_path = './data/private.json'
-#
-#     mIoU = evaluation(gt_path=gt_path, pred_path=pred_path)
-#     print(mIoU)
+if __name__ == '__main__':
+    # # 837 imgages => ok
+    # gt_path = '../input/data/test_private.json'
+    # # 417 imgages => ok
+    # gt_path = '../input/data/public.json'
+    # # 420 imgages => ok
+    # private_path = './data/private.json'
+
+    mIoU = evaluation(gt_path=gt_path, pred_path=pred_path)
+    print(mIoU)
